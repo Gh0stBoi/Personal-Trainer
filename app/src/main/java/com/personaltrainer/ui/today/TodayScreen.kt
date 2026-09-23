@@ -345,7 +345,7 @@ private fun MacroProgressCard(totals: NutritionTotals, targets: com.personaltrai
             MacroBar(
                 label = "Calories",
                 current = totals.kcal.toInt(),
-                target = targets.kcal,
+                target = targets.kcal.toFloat(),
                 unit = "kcal",
                 color = Primary
             )
