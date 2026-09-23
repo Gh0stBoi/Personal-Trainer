@@ -430,6 +430,7 @@ private fun SchedulePage(vm: OnboardingViewModel) {
 
 // ─── Page 4: Equipment ───────────────────────────────────────────────────────
 
+@OptIn(ExperimentalLayoutApi::class)
 @Composable
 private fun EquipmentPage(vm: OnboardingViewModel) {
     var selected by remember { mutableStateOf(vm.equipment.toSet()) }
