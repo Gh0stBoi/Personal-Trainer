@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Defines which data to include in Android Auto Backup.
+    The database (SQLite file) is included; API keys (EncryptedSharedPreferences)
+    are excluded because they are device-specific and encrypted.
+-->
+<full-backup-content>
+    <include domain="database" path="personal_trainer.db" />
+    <exclude domain="sharedpref" path="encrypted_prefs.xml" />
+</full-backup-content>

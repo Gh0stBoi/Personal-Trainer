@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Foreground vector for the adaptive launcher icon.
+    Shows a dumbbell / barbell silhouette on the brand indigo background.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Outer glow circle -->
+    <path
+        android:fillColor="#336C63FF"
+        android:pathData="M54,54m-46,0a46,46 0,1 1,92 0a46,46 0,1 1,-92 0" />
+
+    <!-- Barbell bar (horizontal center rod) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M20,51 L88,51 L88,57 L20,57 Z" />
+
+    <!-- Left plate outer -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M18,42 L26,42 L26,66 L18,66 Z"
+        android:strokeWidth="0" />
+
+    <!-- Left plate inner (cutout feel) -->
+    <path
+        android:fillColor="#6C63FF"
+        android:pathData="M20,45 L24,45 L24,63 L20,63 Z" />
+
+    <!-- Right plate outer -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M82,42 L90,42 L90,66 L82,66 Z" />
+
+    <!-- Right plate inner -->
+    <path
+        android:fillColor="#6C63FF"
+        android:pathData="M84,45 L88,45 L88,63 L84,63 Z" />
+
+    <!-- Left collar -->
+    <path
+        android:fillColor="#00D4AA"
+        android:pathData="M26,47 L32,47 L32,61 L26,61 Z" />
+
+    <!-- Right collar -->
+    <path
+        android:fillColor="#00D4AA"
+        android:pathData="M76,47 L82,47 L82,61 L76,61 Z" />
+</vector>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Personal Trainer</string>
+    <string name="channel_gym_alert_name">Gym Alerts</string>
+    <string name="channel_gym_alert_desc">Workout reminders and escalation alerts</string>
+    <string name="channel_checkin_name">Check-ins</string>
+    <string name="channel_checkin_desc">Morning, meal, and evening check-in questions</string>
+    <string name="channel_summary_name">Summaries</string>
+    <string name="channel_summary_desc">Daily and weekly review summaries</string>
+</resources>

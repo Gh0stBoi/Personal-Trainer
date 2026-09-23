@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        Parent must be a Material/AppCompat theme so Compose's SplashScreen API works.
+        The actual app visuals are 100% Compose — this theme only controls the
+        window background during the initial cold-start frame.
+    -->
+    <style name="Theme.PersonalTrainer" parent="android:Theme.Material.NoTitleBar">
+        <item name="android:windowBackground">@color/ic_launcher_background</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>
